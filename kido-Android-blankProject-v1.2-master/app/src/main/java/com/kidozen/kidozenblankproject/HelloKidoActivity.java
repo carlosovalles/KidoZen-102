@@ -6,20 +6,24 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-
+import android.widget.*;
+import android.graphics.*;
+import android.widget.RelativeLayout;
+import android.graphics.Bitmap.CompressFormat;
 import org.apache.http.HttpStatus;
 import org.json.JSONObject;
-
+import java.io.*;
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
 import kidozen.client.InitializationException;
 import kidozen.client.KZApplication;
+import kidozen.client.LogLevel;
 import kidozen.client.ServiceEvent;
 import kidozen.client.ServiceEventListener;
 import kidozen.client.Storage;
+import kidozen.client.Files;
+import kidozen.client.SMSSender;
 
 
 
@@ -38,7 +42,7 @@ public class HelloKidoActivity extends Activity {
 
     KZApplication app;
 
-
+    LinearLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,21 +122,42 @@ public class HelloKidoActivity extends Activity {
 
     private void LaunchKidozenServicesDemo(){
 
+
+        // 1) STORAGE SERVICE SAMPLE:
+//        try {
+//            CreateOrder(123124,"create order #124123");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+
+        // 2) FILES SERVICE SAMPLE:
+//        try {
+//        GetFile ("test.png");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        // 3) LOG SERVICE SAMPLE:
+//        try {
+//            LogString();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        // 4) SEND SMS SERVICE SAMPLE:
         try {
-            CreateOrder(123124,"create order #124123");
+            SendSMS("3053038639","Hi There");
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
-
-
 
 
     public void CreateOrder(int id, String detail) throws  Exception{
         Storage orders = app.Storage("order");
         JSONObject order = new JSONObject().put("id", id).put("detail", detail);
-
-
         orders.Create(order, new ServiceEventListener() {
 
             JSONObject mMetadata;
@@ -142,6 +167,52 @@ public class HelloKidoActivity extends Activity {
                     // keep a reference of the response, which has the unique identifier of the message
                     mMetadata = (JSONObject) e.Response;
                     Log.d(TAG,mMetadata.toString());
+                }
+            }
+        });
+    }
+
+
+    public void GetFile(String path) throws Exception {
+        app.FileStorage().Download(path, new ServiceEventListener() {
+            @Override
+            public void onFinish (ServiceEvent e){
+                if (e.StatusCode == HttpStatus.SC_OK) {
+                    ByteArrayOutputStream response = (ByteArrayOutputStream) e.Response;
+                    Bitmap bitmap;
+                    bitmap = BitmapFactory.decodeByteArray(response.toByteArray(), 0, response.size());
+
+                    ImageView image = new ImageView(HelloKidoActivity.this);
+                    image.setImageBitmap(bitmap);
+                }
+            }
+
+        });
+    }
+
+    public void LogString() throws Exception {
+        final CountDownLatch lcd = new CountDownLatch(1);
+        String data = String.format("application has been launched at : %s", new Date().getTime());
+        app.WriteLog("Start",data, LogLevel.LogLevelCritical,new ServiceEventListener() {
+            @Override
+            public void onFinish(ServiceEvent e) {
+                if (e.StatusCode==HttpStatus.SC_CREATED) {
+                    //notify
+                }
+            }
+        });
+    }
+
+    public void SendSMS(String number, String message) throws Exception {
+        SMSSender sender = app.SMSSender(number);
+        sender.Send(message, new ServiceEventListener() {
+            @Override
+            public void onFinish(ServiceEvent e) {
+
+                Log.d(TAG, "Here.");
+
+                if (e.StatusCode==HttpStatus.SC_CREATED) {
+                    // Notify UI
                 }
             }
         });

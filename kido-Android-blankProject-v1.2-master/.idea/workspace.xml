@@ -48,10 +48,24 @@
       <file leaf-file-name="HelloKidoActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kidozen/kidozenblankproject/HelloKidoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6693712" vertical-offset="1605" max-vertical-offset="2190">
-              <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.52191234" vertical-offset="2228" max-vertical-offset="2730">
+              <caret line="212" column="0" selection-start-line="205" selection-start-column="2" selection-end-line="218" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2909#4043#0" expanded="true" />
+                <element signature="e#3096#3924#0" expanded="true" />
+                <element signature="e#3905#3906#0" expanded="true" />
+                <element signature="e#4036#4037#0" expanded="true" />
+                <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+                <element signature="class#5029:5476" expanded="false" />
+                <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+                <element signature="e#5584#6140#0" expanded="true" />
+                <element signature="e#6128#6129#0" expanded="true" />
+                <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+                <element signature="e#6416#6647#0" expanded="true" />
+                <element signature="e#6636#6637#0" expanded="true" />
+                <element signature="e#6810#7084#0" expanded="true" />
+                <element signature="e#7073#7074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +79,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -1773,17 +1787,17 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hello_kido.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hello_kido.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kidozen/kidozenblankproject/HelloKidoActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="25" />
-    <option name="width" value="1244" />
-    <option name="height" value="963" />
+    <option name="x" value="63" />
+    <option name="y" value="22" />
+    <option name="width" value="1173" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1862,6 +1876,54 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kido-Android-blankProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kido-Android-blankProject-v1.2-master" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kido-Android-blankProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kido-Android-blankProject-v1.2-master" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1901,7 +1963,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -2105,30 +2167,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="25" width="1244" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="63" y="22" width="1173" height="981" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3824885" sideWeight="0.64680547" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38487583" sideWeight="0.64680547" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.50035894" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2505384" sideWeight="0.50117093" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30414745" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30184332" sideWeight="0.51112705" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30402932" sideWeight="0.51112705" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49882904" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26513213" sideWeight="0.49882904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2184,15 +2246,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/kidozen/kidozenblankproject/HelloKidoActivity.java</url>
-          <line>142</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -2202,6 +2256,20 @@
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2228,6 +2296,20 @@
           <caret line="46" column="60" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2254,6 +2336,20 @@
           <caret line="46" column="60" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2280,6 +2376,20 @@
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2306,6 +2416,20 @@
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2332,6 +2456,20 @@
           <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2342,6 +2480,20 @@
           <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2352,6 +2504,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2393,14 +2559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22804055" vertical-offset="0" max-vertical-offset="592">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5825243" vertical-offset="0" max-vertical-offset="618">
@@ -2408,41 +2566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hello_kido.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Looper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47297296" vertical-offset="185" max-vertical-offset="555">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33243242" vertical-offset="117" max-vertical-offset="1245">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="15916" max-vertical-offset="17820">
-          <caret line="1070" column="19" selection-start-line="1070" selection-start-column="19" selection-end-line="1070" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -2470,12 +2597,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/client/src/main/java/kidozen/client/KZService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6363636" vertical-offset="3615" max-vertical-offset="4605">
+          <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/client/src/main/java/kidozen/client/ServiceEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27322406" vertical-offset="0" max-vertical-offset="549">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hello_kido.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/client/src/main/java/kidozen/client/KZApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9286" max-vertical-offset="11415">
+          <caret line="659" column="0" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56570154" vertical-offset="106" max-vertical-offset="555">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33184856" vertical-offset="91" max-vertical-offset="1245">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17820">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/client/src/main/java/kidozen/client/authentication/IdentityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33184856" vertical-offset="1321" max-vertical-offset="7500">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kidozen/kidozenblankproject/HelloKidoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6693712" vertical-offset="1605" max-vertical-offset="2190">
-          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.52191234" vertical-offset="2228" max-vertical-offset="2730">
+          <caret line="212" column="0" selection-start-line="205" selection-start-column="2" selection-end-line="218" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2909#4043#0" expanded="true" />
+            <element signature="e#3096#3924#0" expanded="true" />
+            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+            <element signature="method#CreateOrder#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="class#5029:5476" expanded="false" />
+            <element signature="method#GetFile#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#5584#6140#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+            <element signature="method#LogString#0;class#HelloKidoActivity#0" expanded="false" />
+            <element signature="e#6416#6647#0" expanded="true" />
+            <element signature="e#6636#6637#0" expanded="true" />
+            <element signature="e#6810#7084#0" expanded="true" />
+            <element signature="e#7073#7074#0" expanded="true" />
           </folding>
         </state>
       </provider>

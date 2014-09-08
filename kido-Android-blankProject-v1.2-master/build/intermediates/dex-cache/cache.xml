@@ -6,7 +6,7 @@
         jar="/Users/carlosovalles/Desktop/KidoZen102/kido-Android-blankProject-v1.2-master/app/build/intermediates/exploded-aar/kido-Android-blankProject-v1.2-master.library/client/unspecified/classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="548f41f425b473d1bb8821d7db1a8b0194624e22"/>
+        sha1="677b42ef6172600246ed92bedee333d52c49fbda"/>
     <item
         dex="/Users/carlosovalles/Desktop/KidoZen102/kido-Android-blankProject-v1.2-master/app/build/intermediates/pre-dexed/debug/websocket-0.7-1ac6a406636532601b147ab4db83f0a6ec92964e.jar"
         jar="/Users/carlosovalles/.gradle/caches/modules-2/files-2.1/com.netiq/websocket/0.7/206d47a3066d83004f86c5095a4969f8f6395164/websocket-0.7.jar"
