@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/client/client.iml" filepath="$PROJECT_DIR$/library/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/kido-Android-blankProject.iml" filepath="$PROJECT_DIR$/kido-Android-blankProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kido-Android-blankProject-v1.2-master.iml" filepath="$PROJECT_DIR$/kido-Android-blankProject-v1.2-master.iml" />
     </modules>
   </component>
 </project>
