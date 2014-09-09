@@ -124,11 +124,11 @@ public class HelloKidoActivity extends Activity {
 
 
         // 1) STORAGE SERVICE SAMPLE:
-//        try {
-//            CreateOrder(123124,"create order #124123");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            CreateOrder(123124,"create order #124123");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
         // 2) FILES SERVICE SAMPLE:
@@ -146,11 +146,11 @@ public class HelloKidoActivity extends Activity {
 //        }
 
         // 4) SEND SMS SERVICE SAMPLE:
-        try {
-            SendSMS("3053038639","Hi There");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            SendSMS("1800555555","Hi There");
+//        } catch (Exception e) {
+//           e.printStackTrace();
+//        }
 
     }
 
@@ -209,7 +209,7 @@ public class HelloKidoActivity extends Activity {
             @Override
             public void onFinish(ServiceEvent e) {
 
-                Log.d(TAG, "Here.");
+                Log.d(TAG, "SMS Sent successfully.");
 
                 if (e.StatusCode==HttpStatus.SC_CREATED) {
                     // Notify UI
