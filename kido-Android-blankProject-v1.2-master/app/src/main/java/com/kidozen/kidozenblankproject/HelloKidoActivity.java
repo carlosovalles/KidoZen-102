@@ -30,12 +30,12 @@ import kidozen.client.SMSSender;
 public class HelloKidoActivity extends Activity {
 
     public static final String TAG = "HelloKido Activity";
-    final String TENANT = "https://public.kidocloud.com/";
-    final String APPLICATION = "tasks";
-    final String AppKey = "vI672FJGweb0MG457fkNA8SDzxS08kOTOdQcHVon6+w=";
+    final String TENANT = "https://tenantName.kidocloud.com/";
+    final String APPLICATION = "AppName";
+    final String AppKey = "AppKey";
     final String KidoZenProvider = "Kidozen";
-    final String KidoZenUser = "public@kidozen.com";
-    final String KidoZenPassword = "pass#1";
+    final String KidoZenUser = "tenant@kidozen.com";
+    final String KidoZenPassword = "?????";
 
     Button authButton ;
     TextView textMessage;
